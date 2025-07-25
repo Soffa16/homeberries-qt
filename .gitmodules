@@ -1,0 +1,4 @@
+[submodule "external/homeberries-core"]
+	path = external/homeberries-core
+	url = https://github.com/kEzorka/homeberries-core.git
+	branch = introduce/warehouse
