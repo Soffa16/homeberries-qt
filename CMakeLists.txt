@@ -27,7 +27,7 @@ qt_add_executable(homeberries-qt
     ${SOURCES}
     ${HEADERS}
 )
-target_link_libraries(homeberries-qt PRIVATE Qt${QT_VERSION_MAJOR}::Widgets homeberries-core)
+target_link_libraries(homeberries-qt PRIVATE Qt${QT_VERSION_MAJOR}::Widgets homeberries-core-lib)
 
 set_target_properties(homeberries-qt PROPERTIES
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
